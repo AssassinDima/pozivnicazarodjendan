@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Invitation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        .card-container {
+            margin-top: 50px;
+        }
+        .card-container img {
+            max-width: 90%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .location-link {
+            display: block;
+            margin: 20px 0;
+            font-size: 18px;
+            color: #007BFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .location-link:hover {
+            text-decoration: underline;
+        }
+        .map-container {
+            margin-top: 20px;
+        }
+        iframe {
+            width: 90%;
+            height: 300px;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="card-container">
+        <a href="https://www.google.com/maps/place/Hotel+Dragovi%C4%87+Smederevo/@44.6730152,20.9677524,17z/data=!3m1!4b1!4m9!3m8!1s0x475092506756efbd:0xbe85cee1c57aa03e!5m2!4m1!1i2!8m2!3d44.6730152!4d20.9677524!16s%2Fg%2F11rs18ygg?entry=ttu&g_ep=EgoyMDI1MDEwNi4xIKXMDSoASAFQAw%3D%3D" target="_blank">
+            <img src="pozivnica.png" alt="Birthday Invitation">
+        </a>
+    </div>
+    <a class="location-link" href="https://www.google.com/maps/place/Hotel+Dragovi%C4%87+Smederevo/@44.6730152,20.9677524,17z/data=!3m1!4b1!4m9!3m8!1s0x475092506756efbd:0xbe85cee1c57aa03e!5m2!4m1!1i2!8m2!3d44.6730152!4d20.9677524!16s%2Fg%2F11rs18ygg?entry=ttu&g_ep=EgoyMDI1MDEwNi4xIKXMDSoASAFQAw%3D%3D" target="_blank">
+        Click here for directions to the location
+    </a>
+    <div class="map-container">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509363!2d144.96305781537763!3d-37.814107979751554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf57752da5e8e4b0b!2sYour+Event+Location!5e0!3m2!1sen!2s!4v1690114703747!5m2!1sen!2s" 
+            allowfullscreen="" 
+            loading="lazy">
+        </iframe>
+    </div>
+</body>
+</html>
